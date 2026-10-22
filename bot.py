@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 import yt_dlp
 
 # Bot Token-kaaga
-TELEGRAM_TOKEN = "8984653101:AAEa1GUJpqN3v3bg8kjr-ZfpFAjrfuiB3Y"
+TELEGRAM_TOKEN = "8984653101:AAGrDSKE1sudjxj7rmNklZbJjtQCqRn9FFg"
 
 async def start_and_help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
